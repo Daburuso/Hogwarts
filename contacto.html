@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biblioteca Hogwarts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilo.css">
+
+    </head>
+
+    <body class="index">
+        <header> 
+            <nav class="navbar navbar-expand-lg navbar-light " style="background-color: rgb(107, 99, 40);">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <h1> <img class="rounded float-left" src="./Imagenes/Logo.png" alt="">Biblioteca de Hogwarts</h1>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="./index.html"> Inicio (Home)</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./productos.html"> Cátalogo libros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html"> Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div  class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="bg-light p-5">
+                    <form>
+                        <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label text-center">Nombre</label>
+                        <input type="text" class="form-control" id="NombreUsuario" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Correo</label>
+                        <input type="email" class="form-control" id="Correo">
+                        <div id="emailHelp" class="form-text">Nunca compartiremos tu correo</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+                            <input type="text" class="form-control" id="Mensaje">
+                        </div>
+                        <button class="btn btn-primary" onclick="VerificarContacto()">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+          <script src="./jsconfig.js"></script>
+    </body>
+</html>

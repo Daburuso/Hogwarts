@@ -1,0 +1,145 @@
+*{
+    margin: 0; 
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.menu {
+    background-color:rgba(158, 114, 48, 0.89);
+    display: flex;  
+    justify-content:center; 
+    align-items: center; 
+    padding: 10px 10px;
+}
+.menu ul {
+    list-style: none;
+    text-align:left;
+}
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.menu ul li:last-child {
+    margin-right: 0;
+}
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.menu ul li a:hover {
+    background-color: #555; 
+}
+.ImgLogo{
+    width: 70px; 
+    height: auto; 
+    vertical-align:middle; 
+    margin-right: 15px;
+}
+.titulo{
+    background-color: rgb(168, 196, 194);
+}
+.Portada{
+    text-align: center; 
+    position: relative; 
+    background-color: rgb(168, 196, 194);
+}
+.ImgPortada{
+    width: 100%; 
+    
+    align-items: center;
+    height: auto;
+}
+.rounded{
+    width: 9%;
+}
+.TextoPortada{
+    color: black; 
+    background-color: rgba(133, 117, 49, 0.575); 
+    border: 1px solid rgba(133, 117, 49, 0.575);;
+    border-radius: 10px;
+    border-style:dotted;
+}
+
+.ProductosDestacados{
+    background-color: rgb(168, 196, 194) ;
+    text-align: center;
+}
+.contenedor{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 20px;
+    padding-top: 2%;
+    padding-bottom: 3%; 
+}
+.contenedor-p{
+    background-color:white;
+    border: 2px solid #555;
+    border-radius: 50px;
+    text-align: center;
+    width: 300px;
+    
+}
+.ImgProducto{
+    max-width: 100%;
+    height: fit-content;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.TextoDes{
+    text-align: center;
+    color: black;
+}
+.SeccionNosotros{
+    background-color: rgb(168, 196, 194) ;
+    text-align: left;
+}
+.PiePagina{
+    background-color:rgb(100, 170, 180);
+}
+.Pieiz{
+    text-align: center;
+    width: 100%;
+    background-color:rgb(100, 170, 180);
+}
+
+.Pieder{
+    background-color:rgb(100, 170, 180);
+    text-align: center;
+    width: 100%;
+}
+
+.logos{
+    height: 25px;
+}
+.ImgCarrito{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    
+}
+.Hyper{
+    text-align: center;
+    color: black;
+}
+.formulario{
+    display: flexbox;
+    grid-template-columns:20%;
+}
+textarea{
+    width: auto;
+    height: auto;
+    resize: none;
+}
+
+.bg{
+    height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
